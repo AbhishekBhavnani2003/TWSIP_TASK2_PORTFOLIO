@@ -250,6 +250,7 @@ body{
 {
    height: 50px;
    width: 50px;
+   display: none ;
    margin-left: 10px;
    float: left;
    margin-top: -60px;
