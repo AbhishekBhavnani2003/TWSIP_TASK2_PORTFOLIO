@@ -290,6 +290,7 @@ body{
 #profimg
 {
 height: 50px;
+display:none ;
 width: 50px;
 margin-left: 10px;
 float: left;
