@@ -1,0 +1,96 @@
+.navbar a {
+
+
+    padding: 4px;
+    margin: 10px;
+    font-weight: bold;
+    margin-top: -10px;
+    width: 200%;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar a:hover {
+    font-size: 20px;
+}
+
+#myphoto {
+    margin-left: 20px;
+}
+
+.intro {
+    margin-left: 250px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.aboutme {
+    margin-left: 90px;
+    width: 100%;
+}
+
+.lang {
+    margin-left: 70px;
+}
+
+#langtittle {
+    width: 100%;
+}
+
+
+.lang li {
+    padding: 2px;
+    margin: 10px;
+    width: 100%;
+}
+
+.lang {
+    width: 100%;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+
+.professionalexp {
+    flex-direction: column;
+    width: 300%;
+    margin-left: 70px;
+}
+
+
+.container h1 {
+    margin-left: 100px;
+}
+
+.unique,
+.vda {
+    width: 100%;
+}
+
+.footer {
+    width: 180%;
+}
+
+
+.container {
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.connect {
+    width: 40%;
+    margin-left: 70px;
+}
+
+.conatctsection {
+    display: flex;
+    width: 300%;
+    flex-direction: column;
+}

@@ -1,0 +1,423 @@
+/* navbar  */
+
+body{
+    background: url(/static/images/bg3.jpg) no-repeat center/cover;
+
+}
+
+.inital
+{
+    margin-top:-50px ;
+}
+
+.navbar 
+{
+    height: 100px;
+    margin-top: -120px;
+    margin-left: 300px;
+}
+
+.navbar a
+{
+ text-decoration: none;
+ padding:20px;
+ font-size:15px;
+ font-weight: bold;
+ margin-top:50px;
+ margin: 10px;
+ color: #2F3C76;
+}
+
+.navbar a:hover
+{ 
+    font-size:20px;
+}
+
+
+
+#myphoto
+{
+    margin-left: 100px;
+    margin-top: 80px;
+    border: 2px transparent;
+    border-radius: 50%;
+}
+
+
+
+
+
+/* intro */ 
+
+.intro
+{
+
+    text-align: justify;
+    margin-top: -200px;
+    margin-left: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: fadein 5s ease-in-out forwards;
+    color: #2F3C76;
+
+}
+
+
+.intro button 
+{
+    padding: 10px;
+    margin: 10px;
+    border:none;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+}
+
+
+#download-button a{
+    text-decoration: none;
+    color: #FBEAEB;
+}
+
+
+.intro button:hover
+{
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    padding: 15px;
+}
+
+
+
+@keyframes fadein {
+
+    from
+{
+    opacity: 0;
+} 
+   to 
+   {
+    opacity: 1;
+   }
+    
+}
+
+
+
+
+.intro img
+{
+    border: 2px  transparent ;
+    border-radius: 50%;
+}
+
+
+
+#myimage
+{
+    height: 500px;
+    width: 250px;
+    float: right;
+    margin-top: -100px;
+}
+
+/* main */
+
+
+.aboutme
+{
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    border-radius: 20px  ;
+    font-size: 20px;
+    width: 80%;
+    margin: 30px;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans- ;
+}
+
+
+#tittle-about
+{
+    margin-top: 120px;
+    margin-left: 30px;
+    color:  #2F3C76;
+
+}
+
+#aboutmeimg 
+{
+   height: 100px;
+   width: 100px;
+   float: left;
+   margin-top: 90px;
+}
+
+.lang
+{
+    display: flex;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: initial;
+    margin: 30px;
+    padding: 80px;
+    width: 60%;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans- ;
+    font-size: 20px;
+}
+
+.lang li
+{
+    padding: 10px;
+}
+
+#langtittle
+{
+    margin-left: 30px;
+    margin-bottom: -50px;
+    padding: 25px;
+    color:  #2F3C76;
+
+}
+
+#lang
+{
+    height: 100px;
+   width: 100px;
+   float: left;
+
+}
+
+
+
+.unique , .vda
+{ 
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    width: 30%;
+    height: 700px;
+    text-align: justify;
+    float: left;
+    margin-left: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans- ;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#webtittle
+{
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+
+}
+
+#link
+{
+    text-decoration: none;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    margin: 30px;
+    margin-bottom: 100px; 
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    border-radius: 30px;
+    margin-left: 100px;
+}
+
+.unique h3{
+    margin-top: 60px;
+}
+
+#project
+{
+    margin-left: 80px;
+    margin-top: 100px;
+    color:  #2F3C76;;
+    
+}
+
+#projectimg
+{
+   height: 50px;
+   width: 50px;
+   margin-left: 10px;
+   float: left;
+   margin-top: -60px;
+
+}
+
+.uniquewear , .courierservices , .topperworld
+{
+    width: 100%;
+    margin: 100px;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    border-radius: 20px;
+    width: 30%;
+    height: 400px;
+    text-align: justify;
+    margin: 30px;
+    padding: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans- ;
+    font-size: 20px;
+
+}
+
+.professionalexp
+{
+    margin-top: 500px;
+    display: flex;
+}
+
+
+.exptittle
+{
+    margin-bottom: -400px;
+     color:  #2F3C76;
+}
+
+
+#profimg
+{
+height: 50px;
+width: 50px;
+margin-left: 10px;
+float: left;
+padding: 20px;
+margin-top: -20px;
+}
+
+
+.container {
+    /* border: 2px solid black; */
+    width: 30%;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    padding: 75px 75px;
+    border-radius: 20px;
+    height: 750px;
+    float: right;
+  }
+
+  .formgroup input ,    .formgroup textarea {
+    font-size: 25px;
+    margin: 50px auto ;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid #FBEAEB;
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Preahvihear', sans-serif;
+
+  }
+
+  .formgroup textarea
+  {
+    border: 2px solid #FBEAEB;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+  }
+
+  .container h1 {
+    text-align: center;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    margin: 30px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+
+  }
+
+  .container button {
+    display: block;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    padding: 10px;
+    width: 20%;
+    margin: 50px 130px;
+
+  }
+
+
+  .connect
+  {
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    border-radius: 20px;
+    width: 35%;
+    height: 840px;
+    margin-top: 200px;
+    margin: 100px 50px;
+    padding: 30px;
+  }
+
+  .connect h1
+  {
+    text-align: center;
+  }
+
+  .connect a
+  {
+    text-decoration: none;
+    background-color: #2F3C76;
+    color: #FBEAEB;
+    margin: 20px;
+    text-align: center;
+
+  }
+
+  .contacti
+  {
+    display: flex;
+    justify-content:initial;
+    padding: 30px;
+  }
+
+
+  #call , #linkedin
+  {
+    margin-left: 25px;
+  }
+
+  #connecti
+  {
+    margin-left: 35px;
+  }
+
+  #img
+  {
+    filter: invert(100%);
+  }
+
+  ::placeholder
+  {
+    background-color: #2F3C76;
+    color: #FBEAEB;
+  }
+
+
+
+
+/* footer */
+
+.footer
+{
+    color: #2F3C76;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
